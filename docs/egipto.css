@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li a:hover {
+    background-color: black;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif
+
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif
+
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+display: inline;
+}
+
+header nav ul li a {
+padding: 10px 20px ;
+display: block;
+color: #ffffff;
+text-decoration: none ;
+}
+
+nav ul li a:hover {
+background-color: #575757;
+}
+
+nav {
+background-color: #000;
+}
+body {
+background-color: #ffffff;
+}
+
+.main{
+position: fixed;
+align-self: center;
+
+}
+
+body {
+    background-image: url(imagenes/pyr.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
